@@ -5,9 +5,6 @@ import json
 import os
 import pytz
 
-INFILE = 'basis-data-2013-08-20.json'
-OUTFILE = INFILE.replace('.json', '.log')
-
 
 def write_out(outf, line):
     logline = ('%s' % line['timestamp'])
